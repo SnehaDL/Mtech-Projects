@@ -1,0 +1,16 @@
+	
+    var NewCount = 0
+    var i, len, inputs = document.form1.getElementsByTagName("input");
+    for (i = 0, len = inputs.length; i < len; i++) {
+        if (inputs[i].type === "checkbox" && inputs[i].checked)
+            {var NewCount++;
+            alert(NewCoun)
+         }
+    }
+    
+    if (NewCount == 3)
+{
+alert('Pick Just Two Please');
+ return false;
+}
+ 

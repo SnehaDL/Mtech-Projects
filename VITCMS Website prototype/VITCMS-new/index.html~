@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VIT CMS website</title>
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="css/featuredcontentglider.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/featuredcontentglider.js"></script>
+   <script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/coin-slider.js"></script>
+	<link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
+
+</head>
+<body>
+<div id="templatemo_container">
+	<div id="templatemo_top_panel">
+    	<div id="logo">
+        </div>
+        <script type="text/javascript">
+
+			featuredcontentglider.init({
+				gliderid: "canadaprovinces", //ID of main glider container
+				contentclass: "glidecontent", //Shared CSS class name of each glider content
+				togglerid: "p-select", //ID of toggler container
+				remotecontent: "", //Get gliding contents from external file on server? "filename" or "" to disable
+				selected: 0, //Default selected content index (0=1st)
+				persiststate: false, //Remember last content shown within browser session (true/false)?
+				speed: 500, //Glide animation duration (in milliseconds)
+				direction: "rightleft", //set direction of glide: "updown", "downup", "leftright", or "downup"
+				autorotate: false, //Auto rotate contents (true/false)?
+				autorotateconfig: [3000, 2] //if auto rotate enabled, set [milliseconds_btw_rotations, cycles_before_stopping]
+			})
+		
+		</script>
+		
+		<div id="p-select" class="glidecontenttoggler">
+		
+			<a href="#" class="toc page_01">Home</a>
+      
+		</div>
+        
+    </div> <!-- end of top panel -->
+
+    <div id="templatemo_content">
+    
+        <div id="canadaprovinces" class="glidecontentwrapper">
+        
+            <div class="glidecontent"> <!-- page 1 ( Home ) -->
+            
+            
+		<div id="games">
+
+			
+				<img src="css/images/1.jpg" alt="VIT" />
+				<span>
+					<b>Hello!!</b><br />
+					Welcome to VIT Chennai Conference management system.
+				</span>
+			
+
+				<img src="css/images/2.jpg" alt="VIT" />
+				<span>
+					"If we knew what it was we were doing, it would not be called research, would it?"
+					-Albert Einstein 
+				</span>
+			
+				<img src="css/images/3.jpg" alt="VIT" />
+				<span>
+					"You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions."
+-Naguib Mahfouz
+				</span>
+			
+				<img src="css/images/4.jpg" alt="VIT" />
+				<span>
+					"First get your facts; then you can distort them at your leisure."
+-Mark Twain
+				</span>
+			
+				<img src="css/images/5.jpg" alt="VIT" />
+				<span>
+				"The only way to discover the limits of the possible is to go beyond them into the impossible."
+				-Arthur C. Clarke
+					</span>
+			
+				<img src="css/images/6.jpg" alt="VIT" />
+				<span>
+				"We can be absolutely certain only about things we do not understand."
+             -Eric Hoffer
+             </span>
+			
+			<img src="css/images/7.jpg" alt="VIT" />
+				<span>
+				"The best way to predict the future is to invent it."
+             -Alan Kay
+             </span>
+			
+				<img src="css/images/8.jpg" alt="VIT" />
+				<span>
+				"Somewhere, something incredible is waiting to be known."
+			    -Carl Sagan
+			    <span>
+			
+		</div>
+		<script>
+			$('#games').coinslider();
+		</script>
+		<br></br>
+ 
+    <input type="button" value="Student" onClick="javascript:location.href = 'file:///C:/Users/user/Desktop/2%20sem%20projects/SE/VITCMS/slogin.html#';" />
+    <input type="button" value="Faculty" onClick="javascript:location.href = 'file:///C:/Users/user/Desktop/2%20sem%20projects/SE/VITCMS/flogin.html#';" />
+                
+   	</div> <!-- end of footer -->
+
+                
+                
+                    
+            </div> <!-- end of page 1 -->
+            
+            
+           
+            
+	    </div> <!-- end of glidecontent wrapper -->
+	</div> <!-- end of content -->        
+</div> <!-- end of container -->
+
+
+<div id="templatemo_footer_wrapper">
+	<div id="templatemo_footer">
+        Copyright © 2013 VIT Chennai Campus | Conference Management System by <a href="www.vit.ac.in" target="_parent">VITCC</a>
+   	</div> <!-- end of footer -->
+</div>
+</html>
